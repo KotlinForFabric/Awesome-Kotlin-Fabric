@@ -37,7 +37,7 @@ Libraries are listed roughly in order of followers.
 #### Server side
 
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-igui)
-  - server side GUIs using inventories, high a level abstraction, built using a DSL
+  - server side GUIs using inventories, high level abstraction, GUI built using a DSL
   - transition effects, automatic rerender on state changes
   - easy to use utilities for listing content 
 
@@ -61,8 +61,11 @@ All allow the serialization of any serializable class with kotlinx.serialization
 * [libreg](https://github.com/CursedMC/libreg)
 
 ### Serializers
+
+All allow you to target any kotlinx.serialization dataformat you want to use.
+
 * [KInventory](https://github.com/CmdrNorthpaw/kinventory)
-  - allows you to serialize Inventories to any kotlinx.serialization dataformat you want to use
+  - allows you to serialize Inventories
 
 ### Storage
 
