@@ -35,6 +35,15 @@ Bolded mods are made solely for the category they are in.
   - tasks (coroutine based), basic Inventory extensions, some extensions for World, Text, Vectors, Boxes etc
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
 
+### GUI
+
+#### Server side
+
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-igui)
+  - server side inventories using inventories, high a level abstraction, built using a DSL
+  - transition effects, automatic rerender on state changes
+  - easy to use utilities for listing content 
+
 ### Networking
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
 
@@ -57,6 +66,12 @@ All allow the serialization of any serializable class with kotlinx.serialization
 ### Serializers
 * [**KInventory**](https://github.com/CmdrNorthpaw/kinventory)
   - allows you to serialize Inventories to any kotlinx.serialization dataformat you want to use
+
+### Storage
+
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-persistence)
+  - allows you to store any serializable class and all primitives to component holders such as Chunks, Entities and so on
+  - fast in memory access and storage, will be stored persistently when the game is saved
 
 ### Text DSL / Builders
 
