@@ -12,7 +12,7 @@ Bolded mods are made solely for the category they are in.
 
 ### Command DSL / Builders
 
-* [Fabrik](https://github.com/jakobkmar/fabrikmc)
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-commands)
 * [**Aegis**](https://github.com/P03W/Aegis)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
 
@@ -21,7 +21,7 @@ Bolded mods are made solely for the category they are in.
 * [**SpaceServe Config**](https://github.com/SpaceServe/spaceserve-config)
 
 ### Extensions
-* [Fabrik](https://github.com/jakobkmar/fabrikmc)
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-core)
 * [**Kettle**](https://github.com/Cypher121/kettle)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
 
@@ -30,7 +30,7 @@ Bolded mods are made solely for the category they are in.
 
 ### NBT Serialization
 
-* [Fabrik](https://github.com/jakobkmar/fabrikmc)
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-nbt)
 * [**Fabric Drawer**](https://github.com/natanfudge/Fabric-Drawer)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
 
@@ -44,6 +44,6 @@ Bolded mods are made solely for the category they are in.
 
 ### Text DSL / Builders
 
-* [Fabrik](https://github.com/jakobkmar/fabrikmc)
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-core)
 * [SpaceServe Ekho](https://github.com/SpaceServe/spaceserve-ekho)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
