@@ -16,11 +16,30 @@ Bolded mods are made solely for the category they are in.
 * [**Aegis**](https://github.com/P03W/Aegis)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
 
+### Config
+* [**ParadoxConfig**](https://modrinth.com/mod/paradox-config)
+
+### Extensions
+* [Fabrik](https://github.com/jakobkmar/fabrikmc)
+* [**Kettle**](https://github.com/Cypher121/kettle)
+* [Kambrik](https://github.com/ejektaflex/Kambrik)
+
+### Networking
+* [Kambrik](https://github.com/ejektaflex/Kambrik)
+
 ### NBT Serialization
 
 * [Fabrik](https://github.com/jakobkmar/fabrikmc)
 * [**Fabric Drawer**](https://github.com/natanfudge/Fabric-Drawer)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
+
+### Registration
+
+* [Kambrik](https://github.com/ejektaflex/Kambrik)
+* [**libreg**](https://github.com/CursedMC/libreg)
+
+### Serialization (Non-NBT)
+* [**KInventory**](https://modrinth.com/mod/kinventory)
 
 ### Text DSL / Builders
 
