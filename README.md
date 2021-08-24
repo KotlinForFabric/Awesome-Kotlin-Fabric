@@ -27,7 +27,7 @@ Libraries are listed roughly in order of followers.
 
 ### Extensions
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-core)
-  - tasks (suspend coroutines and coroutine based), ItemStack builder, Sideboard (Scoreboard) builder, logging, maths (position conversion)
+  - tasks (suspending coroutines and coroutine based), ItemStack builder, Sideboard (Scoreboard) builder, logging, maths (position conversion)
 * [Kettle](https://github.com/Cypher121/kettle)
   - tasks (coroutine based), basic Inventory extensions, some extensions for World, Text, Vectors, Boxes etc
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
@@ -37,7 +37,7 @@ Libraries are listed roughly in order of followers.
 #### Server side
 
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-igui)
-  - server side inventories using inventories, high a level abstraction, built using a DSL
+  - server side GUIs using inventories, high a level abstraction, built using a DSL
   - transition effects, automatic rerender on state changes
   - easy to use utilities for listing content 
 
