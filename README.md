@@ -17,7 +17,8 @@ Bolded mods are made solely for the category they are in.
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
 
 ### Config
-* [**ParadoxConfig**](https://modrinth.com/mod/paradox-config)
+* [**ParadoxConfig**](https://github.com/RedstoneParadox/ParadoxConfig)
+* [**SpaceServe Config**](https://github.com/SpaceServe/spaceserve-config)
 
 ### Extensions
 * [Fabrik](https://github.com/jakobkmar/fabrikmc)
@@ -44,5 +45,5 @@ Bolded mods are made solely for the category they are in.
 ### Text DSL / Builders
 
 * [Fabrik](https://github.com/jakobkmar/fabrikmc)
-* [Ekho](https://github.com/SpaceServe/spaceserve-ekho)
+* [SpaceServe Ekho](https://github.com/SpaceServe/spaceserve-ekho)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
