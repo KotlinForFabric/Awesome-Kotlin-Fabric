@@ -16,6 +16,7 @@ Libraries are listed roughly in order of followers.
   - wraps Brigardier with its own command builder (still allows you to access raw Brigardier though)
   - argument types are defined via the function name
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
+  - offers an alternative command DSL that exists on top of Brigadier
 
 ### Config
 * [ParadoxConfig](https://github.com/RedstoneParadox/ParadoxConfig)
@@ -24,6 +25,10 @@ Libraries are listed roughly in order of followers.
 * [SpaceServe Config](https://github.com/SpaceServe/spaceserve-config)
   - uses kotlinx.serialization, config spec defined using serializable classes, provides some custom serializers for Minecraft classes
   - supports Json
+* [Kambrik](https://github.com/ejektaflex/Kambrik)
+  - Kambrik's persistance api provides a great way of persisting data between launches
+  - easily link variables to a config instance using delegation
+  - config entries can exist between multiple files for ultimate flexibility
 
 ### Extensions
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-core *and* fabrikmc-game)
@@ -39,8 +44,8 @@ Libraries are listed roughly in order of followers.
 
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-compose)
   - render any compose gui on the server side and display it to the player ingame
-  - gives you access to Material UI
-  - more info on Compose can be found [here](https://github.com/JetBrains/compose-jb)
+  - gives you acces to the whole world of Material UI
+  - more info on compose can be found [here](https://github.com/JetBrains/compose-jb)
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-igui)
   - server side GUIs using inventories, high level abstraction, GUI built using a DSL
   - transition effects, automatic rerender on state changes
@@ -48,9 +53,13 @@ Libraries are listed roughly in order of followers.
 
 ### Networking
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-network)
-  - allows you to send any serializable class as a packet
+  - allows you to send any serializable class as packets
+  - uses cbor
   - supports s2c, c2s, c2c (over server)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
+  - allows you to send any serialzable class as packets
+  - uses json
+  - supports s2c and c2c (over server)
 
 ### NBT Serialization dataformat
 
@@ -62,10 +71,13 @@ All allow the serialization of any serializable class with kotlinx.serialization
 * [Fabric Drawer](https://github.com/natanfudge/Fabric-Drawer)
   - provides serializers for some Minecraft classes
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
+  - can convert any kotlin class to nbt similar to how gson converts java objects to json. see category description
 
 ### Registration
 
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
+  - allows easy registration for most minecraft registry types
+  - uses infix functions for super-clean syntax
 * [libreg](https://github.com/CursedMC/libreg)
 
 ### Serializers
