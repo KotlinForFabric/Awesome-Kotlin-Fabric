@@ -26,8 +26,9 @@ Libraries are listed roughly in order of followers.
   - supports Json
 
 ### Extensions
-* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-core)
-  - tasks (suspending coroutines and coroutine based), ItemStack builder, Sideboard (Scoreboard) builder, logging, maths (position conversion)
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-core *and* fabrikmc-game)
+  - in core module: tasks (suspending coroutines and coroutine based), ItemStack builder, logging, maths (position conversion)
+  - in game module: sideboard (Scoreboard) builder, cooldown API
 * [Kettle](https://github.com/Cypher121/kettle)
   - tasks (coroutine based), basic Inventory extensions, some extensions for World, Text, Vectors, Boxes etc
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
@@ -36,12 +37,19 @@ Libraries are listed roughly in order of followers.
 
 #### Server side
 
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-compose)
+  - render any compose gui on the server side and display it to the player ingame
+  - gives you acces to the whole world of Material UI
+  - more info on compose can be found [here](https://github.com/JetBrains/compose-jb)
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-igui)
   - server side GUIs using inventories, high level abstraction, GUI built using a DSL
   - transition effects, automatic rerender on state changes
   - easy to use utilities for listing content 
 
 ### Networking
+* [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-network)
+  - allows you to send any serializable class as packets
+  - supports s2c, c2s, c2c (over server)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
 
 ### NBT Serialization dataformat
