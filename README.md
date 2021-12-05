@@ -44,22 +44,23 @@ Libraries are listed roughly in order of followers.
 
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-compose)
   - render any compose gui on the server side and display it to the player ingame
-  - gives you acces to the whole world of Material UI
-  - more info on compose can be found [here](https://github.com/JetBrains/compose-jb)
+  - gives you access to Material UI
+  - more info on Compose can be found [here](https://github.com/JetBrains/compose-jb)
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-igui)
   - server side GUIs using inventories, high level abstraction, GUI built using a DSL
   - transition effects, automatic rerender on state changes
   - easy to use utilities for listing content 
 
 ### Networking
+
+Both allow you to send any serializable class as a packet.
+
 * [Fabrik](https://github.com/jakobkmar/fabrikmc) (fabrikmc-network)
-  - allows you to send any serializable class as packets
-  - uses cbor
+  - uses [Cbor](https://cbor.io/) (binary)
   - supports s2c, c2s, c2c (over server)
 * [Kambrik](https://github.com/ejektaflex/Kambrik)
-  - allows you to send any serialzable class as packets
-  - uses json
-  - supports s2c and c2c (over server)
+  - uses [Json](https://www.json.org/) (text)
+  - supports s2c and c2s
 
 ### NBT Serialization dataformat
 
